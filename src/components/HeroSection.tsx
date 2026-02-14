@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import pippinCosmic from "@/assets/pippin-cosmic.jpg";
+import pippinHeroBg from "@/assets/pippin-hero-bg.mp4";
 import Sparkles from "./Sparkles";
 
 const HeroSection = () => {
@@ -7,9 +7,12 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
-          src={pippinCosmic}
-          alt="Pippin in cosmic universe"
+        <video
+          src={pippinHeroBg}
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-cosmic opacity-60" />
