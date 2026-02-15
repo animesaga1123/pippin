@@ -3,12 +3,12 @@ import Sparkles from "./Sparkles";
 import pippinLogo from "@/assets/pippin-logo.jpg";
 
 const projects = [
-{ name: "Pippin Animator", desc: "Generate custom Pippin characters and scenes with AI", emoji: "🎨" },
-{ name: "Pippin DAO", desc: "Community governance for the Pippin ecosystem", emoji: "🏛" },
-{ name: "Pippin Stories", desc: "Interactive storybooks starring our round friend", emoji: "📖" },
-{ name: "Pippin Quest", desc: "A browser adventure across the multiverse", emoji: "⚔️" },
-{ name: "Pippin Beats", desc: "Music generator with Pippin-inspired sounds", emoji: "🎵" },
-{ name: "Pippin Analytics", desc: "Dashboard tracking the growth of the universe", emoji: "📊" }];
+{ name: "Pippin's Diary", desc: "A journal of thoughts from a solitary traveler between worlds", emoji: "📖" },
+{ name: "Glow Garden", desc: "A sanctuary where Pippin plants starseeds and watches them bloom", emoji: "🌱" },
+{ name: "Silent Waves", desc: "Ambient soundscapes from Pippin's cosmic wanderings", emoji: "🎵" },
+{ name: "Starmap", desc: "An interactive map of every world Pippin has visited", emoji: "🗺️" },
+{ name: "Dream Canvas", desc: "Paint and create with colors from Pippin's imagination", emoji: "🎨" },
+{ name: "Echo Chamber", desc: "Messages left by Pippin for those who follow the same path", emoji: "💬" }];
 
 
 const orbitWorlds = [
@@ -89,7 +89,7 @@ const EcosystemSection = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-display font-bold text-center mb-4 text-gradient-primary">
 
-          Projects Across the Universe
+          Worlds Pippin Has Touched
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -98,7 +98,7 @@ const EcosystemSection = () => {
           transition={{ delay: 0.2 }}
           className="text-center text-muted-foreground mb-12 text-lg font-body">
 
-          Worlds built by the community ✨
+          Traces of light left along the journey ✨
         </motion.p>
 
         
@@ -137,7 +137,7 @@ const EcosystemSection = () => {
             href="#"
             className="btn-gradient-accent px-8 py-4 rounded-full font-display text-lg font-bold hover:scale-105 transition-transform inline-block glow-accent">
 
-            ✨ Submit Your Project to the Universe
+            ✨ Leave Your Own Light in the Cosmos
           </a>
         </motion.div>
       </div>

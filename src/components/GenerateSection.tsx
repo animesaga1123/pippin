@@ -16,7 +16,7 @@ const GenerateSection = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-display font-bold mb-6 text-gradient-warm"
         >
-          Create Your Own Pippin World
+          Imagine Your Own Pippin World
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ const GenerateSection = () => {
           transition={{ delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground mb-10 font-body"
         >
-          Generate your own Pippin-style universe and expand the ecosystem.
+          What would your world look like if Pippin wandered through it? Create and imagine.
         </motion.p>
         <motion.a
           href="https://chatgpt.com/g/g-6733ad98c54c8190a5744c1b7a4d6752-pippin-animator"

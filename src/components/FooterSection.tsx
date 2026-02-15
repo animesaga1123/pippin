@@ -20,7 +20,7 @@ const FooterSection = () => {
           Pippin Alone
         </h3>
         <p className="text-muted-foreground font-body mb-8">
-          Expanding realities since imagination began. ✨
+          Wandering the cosmos, one glow at a time. 💙
         </p>
 
         <div className="flex justify-center gap-6 flex-wrap">
