@@ -17,7 +17,7 @@ const AboutSection = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-display font-bold mb-8 text-gradient-primary"
         >
-          What is the Pippin Universe?
+          What is Pippin Alone?
         </motion.h2>
 
         <motion.p

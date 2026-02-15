@@ -17,7 +17,7 @@ const FooterSection = () => {
 
       <div className="relative z-10 text-center px-4">
         <h3 className="text-2xl md:text-3xl font-display font-bold text-gradient-primary mb-2">
-          Pippin Universe
+          Pippin Alone
         </h3>
         <p className="text-muted-foreground font-body mb-8">
           Expanding realities since imagination began. ✨
@@ -39,7 +39,7 @@ const FooterSection = () => {
         </div>
 
         <p className="text-muted-foreground/50 text-xs mt-8 font-body">
-          © 2026 Pippin Universe. All multiverses reserved.
+          © 2026 Pippin Alone. All multiverses reserved.
         </p>
       </div>
     </footer>
