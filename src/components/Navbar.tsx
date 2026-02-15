@@ -31,8 +31,8 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src={pippinLogo} alt="Pippin Universe" className="w-8 h-8 rounded-full object-cover" />
-          <span className="font-display text-lg font-bold text-gradient-primary">Pippin Universe</span>
+          <img src={pippinLogo} alt="Pippin Alone" className="w-8 h-8 rounded-full object-cover" />
+          <span className="font-display text-lg font-bold text-gradient-primary">Pippin Alone</span>
         </a>
 
         {/* Desktop links */}
