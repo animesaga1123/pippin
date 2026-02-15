@@ -38,7 +38,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-lg md:text-2xl text-muted-foreground mb-10 font-body"
         >
-          Where builders explore worlds, extend realities, and expand imagination.
+          A small glowing soul, wandering the cosmos alone — finding light in the silence.
         </motion.p>
 
         <motion.div
@@ -51,7 +51,7 @@ const HeroSection = () => {
             href="#about"
             className="btn-gradient-primary px-8 py-4 rounded-full font-display text-lg font-bold animate-pulse-glow hover:scale-105 transition-transform inline-block"
           >
-            🚀 Explore the Universe
+            🌌 Explore the Journey
           </a>
           <a
             href="https://chatgpt.com/g/g-6733ad98c54c8190a5744c1b7a4d6752-pippin-animator"

@@ -17,7 +17,7 @@ const AboutSection = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-display font-bold mb-8 text-gradient-primary"
         >
-          What is Pippin Alone?
+          Who is Pippin Alone?
         </motion.h2>
 
         <motion.p
@@ -27,16 +27,16 @@ const AboutSection = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto font-body"
         >
-          A centralized hub where projects inspired by Pippin come together.
-          Each project is a new world. Every builder is a universe creator.
+          Pippin is a small, glowing being — born from starlight and silence.
+          Alone but not lonely, Pippin wanders through infinite worlds seeking wonder, connection, and meaning.
         </motion.p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {[
-            { emoji: "🐣", text: "Extend Pippin's functionality" },
-            { emoji: "🌍", text: "Build a new world" },
-            { emoji: "🛠", text: "Integrate into larger systems" },
-            { emoji: "🚀", text: "Create something unexpected" },
+            { emoji: "✨", text: "Born from starlight" },
+            { emoji: "🌌", text: "Wandering infinite worlds" },
+            { emoji: "💙", text: "Seeking connection in silence" },
+            { emoji: "🦋", text: "Finding beauty everywhere" },
           ].map((item, i) => (
             <motion.div
               key={i}

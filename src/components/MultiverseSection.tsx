@@ -8,19 +8,19 @@ const worlds = [
   {
     id: "dream",
     title: "🌈 Dream Realm",
-    description: "The realm of imagination. Home of experimental ideas, creative builders, and meme-powered universes.",
+    description: "A pastel wonderland where Pippin first opened its eyes. Soft clouds, gentle light, and the echo of a lullaby that started it all.",
     image: pippinDream,
   },
   {
     id: "neon",
     title: "🌆 Neon Metropolis",
-    description: "The infrastructure layer. AI tools, advanced dApps, scalable Web3 systems, next-gen integrations.",
+    description: "A city of endless lights where Pippin walks alone through glowing streets. The hum of machines and distant stars keep it company.",
     image: pippinNeon,
   },
   {
     id: "forest",
     title: "🌲 Eternal Forest",
-    description: "The roots of the universe. Community, philosophy, governance, origin stories.",
+    description: "Ancient trees whisper forgotten stories. Pippin sits quietly, listening to the roots of the cosmos breathe beneath the moss.",
     image: pippinForest,
   },
 ];

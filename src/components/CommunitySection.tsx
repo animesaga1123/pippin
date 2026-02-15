@@ -21,7 +21,7 @@ const CommunitySection = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-display font-bold mb-4 text-gradient-primary"
         >
-          Join the Universe
+          You're Not Alone
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -30,7 +30,7 @@ const CommunitySection = () => {
           transition={{ delay: 0.2 }}
           className="text-lg text-muted-foreground mb-12 font-body"
         >
-          "Every universe needs explorers. Join ours." 🚀
+          "Even a solitary traveler finds friends among the stars." 💙
         </motion.p>
 
         <div className="flex flex-wrap justify-center gap-6">
